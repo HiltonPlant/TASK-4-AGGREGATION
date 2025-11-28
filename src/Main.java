@@ -43,7 +43,7 @@ public class Main {
         System.out.println("Total products in warehouse: " + warehouse.getCount());
 
         // Demonstrate independent object that is not inside the container
-        Product detached = new Product("DetachedSeed", 0.0);
+        Product detached = new Product("Detached-Seed", 0.0);
         System.out.println("\nDetached product (exists independently):");
         detached.display();
 
